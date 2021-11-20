@@ -1,0 +1,117 @@
+body {
+    font-family: "Gemunu Libre", sans-serif;
+    font-size: 15px;
+    background-color: black;
+}
+#logo
+{
+    margin-left: 10px;
+}
+#navbar   
+{
+    background-color: #671cd2;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 99;
+}
+#image
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 80px;
+    top: 4px;
+}
+.nav-item
+{
+    padding: 15px;
+}
+.nav-active {
+    background-color: #71c478;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(29 27 27);
+    padding: 15px;  
+    position: relative;
+    text-decoration: solid;
+}
+#formblock
+{
+    height: 530px;
+    width: 500px ;
+    padding: 100px;
+    margin: 150px;
+    left: 20%;
+    position: absolute;
+    background-color: rosybrown;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(248, 225, 14);
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+}
+input {
+    width: 200px;
+    padding: 5px 10px;
+  }
+.gen
+{
+    text-align: left  ;
+    position: relative;
+    left: 25px;
+    display: flex;
+    
+}
+#gend
+{
+    position: relative;
+    left: 15px;
+}
+.submitting
+{
+    margin-top: 50px;
+}
+#contact
+{
+    position: absolute;
+    top: 950px;
+    color: white;
+}
+.btn
+{
+    cursor: pointer;
+}
+#message
+{
+    margin-top: -35px;
+    color: rgb(255 218 35);    
+    font-size: 25px;
+}
+input[type='text']
+{
+    background: rgb(226, 219, 219);
+}
+input[type='email']
+{
+    background: rgb(226, 219, 219);
+}
+input[type='password']
+{
+    background: rgb(226, 219, 219);
+}
+input[type='date']
+{
+    background: rgb(226, 219, 219);
+}

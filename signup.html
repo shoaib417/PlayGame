@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play Game SignUp Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <p><b>PlayGame</b></p>
+            <img id="image" src="logo.png" alt="#" >
+        </div>
+        <div id="menu">
+            <a href="#" class="nav-item"><b>HOME</b></a>
+            <a href="Login.html" class="nav-item"><b>SIGN IN</b></a>
+            <a href="signup.html" class="nav-item nav-active"><b>SIGN UP</b></a>
+            <a href="#" class="nav-item"><b>CONTACT</b></a>
+        </div>
+    </nav>
+    <div id="formblock">
+            <p id="message">Registration Form</p>
+        <form action="backend.php">
+            <div class="text1">
+                <label class="text1" for="My First Name">First Name: </label>
+                <input type="text" placeholder="Enter Your First Name" name="First Name" id="My First Name">
+                
+            </div>
+            <div class="text1">
+                 <label for="My Last Name">Last Name: </label>
+                <input type="text" placeholder="Enter Your Last Name" name="Last Name" id="My Last Name">
+                    
+            </div>
+            <div class="text1">
+                <label for="My Username">Username: </label>
+                <input type="text" placeholder="Enter Your Username" name="Username" id="My Username">
+                            
+            </div>
+            <div class="text1">
+                <label for="My EmailId">Email Id: </label>
+                <input type="email" placeholder="Enter Your Email" name="Email Id" id="My Email Id">
+            </div>
+            <div class="text1">
+                <label for="My password">Password: </label>
+                <input type="password" placeholder="Enter Your Password" name="Password" id="My password">
+            </div>
+            <div class="text1">
+                <label for="My Confirm password">Confirm Password: </label>
+                <input type="password" placeholder="Reconfirm Your Password" name="Confirm Password" id="My Confirm password">
+            </div>
+            <div>
+                <p id="gend">Gender:</p>
+                <p class="gen">
+                <label1 for="My Male">Male &nbsp;&nbsp;&nbsp;</label1>
+                <input type="radio" name="Gender" id="My Male">
+                <br>
+                <label1 for="My Female">Female</label1>
+                <input type="radio" name="Gender" id="My Female">
+                <br>
+                <label1 for="My Other">Other &nbsp;&nbsp;</label1>
+                <input type="radio" name="Gender" id="My Other">
+                </div>
+            </p>
+            <div class="text1">
+                <label for="My Date Of Birth">Date of Birth: </label>
+                <input type="date" name="Date Of Birth" id="My Date Of Birth">
+            </div>  
+            <div class="submitting">
+                <input class="btn" type="submit" value="Create Account">
+                <input class="btn" type="reset" value="Reset Form">
+                
+            </div>
+        </form>
+    </div>
+    <div>
+        <p id="contact">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ratione perspiciatis maiores laboriosam eos, dolores reprehenderit! Impedit assumenda dolore veritatis, necessitatibus corrupti molestias ea deleniti fugiat at recusandae possimus in neque nesciunt?</p>
+    </div>
+    
+</body>
+</html> 
